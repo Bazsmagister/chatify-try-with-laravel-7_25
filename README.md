@@ -53,3 +53,21 @@ The links have been created.
 7.
 
 After installing the package, you can access the messeneger by the default path(route path) which is /chatify
+
+8.
+composer require laravel/ui
+
+php artisan ui vue --auth
+
+php artisan serve
+
+login
+
+go:
+/chatify
+
+done.
+
+Some other stuff:
+
+The reason you’d want to do this with the href of a link is that normally, a javascript: URL will redirect the browser to a plain text version of the result of evaluating that JavaScript. But if the result is undefined, then the browser stays on the same page. void(0) is just a short and simple script that evaluates to undefined.
