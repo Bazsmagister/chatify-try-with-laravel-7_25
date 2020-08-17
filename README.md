@@ -28,6 +28,8 @@ NOTE: Publishing assets means (e.g. config) that creating a copy of the package'
 5.
 php artisan migrate
 
+answer is:
+"
 Migrating: 2014_10_12_000000_create_users_table
 Migrated: 2014_10_12_000000_create_users_table (0.07 seconds)
 Migrating: 2014_10_12_100000_create_password_resets_table
@@ -46,6 +48,7 @@ Migrating: 2019_10_22_000539_add_dark_mode_to_users
 Migrated: 2019_10_22_000539_add_dark_mode_to_users (0.06 seconds)
 Migrating: 2019_10_25_214038_add_active_status_to_users
 Migrated: 2019_10_25_214038_add_active_status_to_users (0.08 seconds)
+"
 
 6.
 php artisan storage:link
